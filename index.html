@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta property="og:title" content="太空侵略者" />
+	<meta property="og:description" content="透過操控大砲進行左右移動，並伺機持續向上方發射攻擊；外星侵略者以集體左右移動逐漸往下的方式行進，並發射砲火向下方攻擊。" />
+	<meta property="og:locale" content="zh_TW" />
+	<meta property="og:type" content="website" />
+    <link href="css/core.css" rel="stylesheet" />
+    <link href="css/typography.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <title>太空侵略者</title>
+</head>
+<body>
+    <div id="starField"></div>
+    <div id="gameContainer">
+        <canvas id="gameCanvas"></canvas>
+    </div>
+    <div id="info">
+        <p><a id="muteLink" href="#" onclick="toggleMute()">靜音</a></p>
+        <p>李亨利版權所有 © 2020</p>
+    </div>
+    <script src="js/star-field.js" defer></script>
+    <script src="js/space-invaders.js" defer></script>
+    <script src="js/initialization.js" defer></script>
+</body>
+</html>
